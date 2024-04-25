@@ -4,9 +4,9 @@ function Modul({ details, setModal, setForm }) {
   const { id, job_title, duties_and_responsibilities, requirements, offers } =
     details;
   return (
-    <div className=" bg-stone-200 rounded-md p-5 absolute md:top-5 top-0 md:w-[80rem] min-h-[40rem] md:h-[44rem] ">
+    <div className=" bg-stone-200 rounded-md p-5 absolute md:top-5 top-0 md:w-[80rem] min-h-[47addrem] md:h-[44rem] ">
       <span
-        className="absolute right-10 top-3 text-3xl cursor-pointer"
+        className="absolute right-5 top-3 text-3xl cursor-pointer"
         onClick={() => setModal((modal) => !modal)}
       >
         x

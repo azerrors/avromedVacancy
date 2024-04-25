@@ -19,7 +19,7 @@ function App() {
   return (
     <div>
       <div className="text-center text-xl font-medium  p-5">
-        Welcome to our Vanacyies
+        Welcome to our Vacancies
       </div>
 
       <main className=" flex flex-col items-center justify-center md:mt-20 ">
