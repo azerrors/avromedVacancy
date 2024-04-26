@@ -17,9 +17,9 @@ function App() {
   const details = getVacancyById(id);
 
   return (
-    <div>
-      <div className="text-center text-xl font-medium  p-5">
-        Welcome to our Vacancies
+    <div >
+      <div className="text-center text-sky-500 text-xl font-medium  p-5">
+        Welcome to Avromed Vacancies
       </div>
 
       <main className=" flex flex-col items-center justify-center md:mt-20 ">
