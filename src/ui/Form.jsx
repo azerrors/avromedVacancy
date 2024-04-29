@@ -1,6 +1,7 @@
 import React from "react";
 
-function Form({ setForm }) {
+function Form({ setForm, details }) {
+  const { form } = details;
   return (
     <div className="absolute top-28 bg-white w-80 rounded-md p-5  md:top-5  md:w-[80rem]  md:h-[44rem]">
       <span

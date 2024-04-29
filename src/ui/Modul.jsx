@@ -2,10 +2,16 @@ import React from "react";
 import { MdOutlineClose } from "react-icons/md";
 
 function Modul({ details, setModal, setForm }) {
-  const { id, job_title, duties_and_responsibilities, requirements, offers } =
-    details;
+  const {
+    id,
+    job_title,
+    form,
+    duties_and_responsibilities,
+    requirements,
+    offers,
+  } = details;
   return (
-    <div className=" bg-sky-100 rounded-md p-5 absolute md:top-5 top-0 md:w-[80rem] min-h-[47rem] md:h-[44rem] ">
+    <div className=" bg-sky-100 rounded-md p-5 absolute md:top-5 top-0 md:w-[80rem] min-h-[47rem] md:min-h-[39rem] ">
       <span
         className="absolute right-5 top-3 text-3xl cursor-pointer"
         onClick={() => setModal((modal) => !modal)}
@@ -76,7 +82,7 @@ function Modul({ details, setModal, setForm }) {
           onClick={() => setForm((form) => !form)}
           className="border border-stone-200 bg-white font-medium px-5 py-3 uppercase rounded-xl"
         >
-          Send Cv
+          <a href={form}>Contact Us</a>
         </button>
       </div>
     </div>

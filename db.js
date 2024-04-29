@@ -25,6 +25,7 @@ export const vacancies = [
       "Career advancement",
       "Professional development in the relevant field",
     ],
+    form: "https://forms.office.com/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=orVNd_nJb0uuPGFIdySA4t5k5elhyhZCvGh8UMYkrsJUMURaRFpSTzZYOUgyWVFOMUNURElLWkNHNC4u",
   },
   {
     id: 2,
@@ -52,6 +53,7 @@ export const vacancies = [
       "Career advancement",
       "Professional development in the relevant field",
     ],
+    form: "https://forms.office.com/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=orVNd_nJb0uuPGFIdySA4t5k5elhyhZCvGh8UMYkrsJUNDRNMk9MUjRRWlJZMTVNMktQUFFLMDAzVC4u",
   },
   {
     id: 3,
@@ -76,6 +78,7 @@ export const vacancies = [
       ],
     },
     offers: [],
+    form: "https://forms.office.com/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=orVNd_nJb0uuPGFIdySA4t5k5elhyhZCvGh8UMYkrsJUNklPR1AxWVhVQTdIQk1WRlNYWk04MVZCUC4u",
   },
   {
     id: 4,
@@ -98,6 +101,7 @@ export const vacancies = [
       ],
     },
     offers: [],
+    form: "https://forms.office.com/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=orVNd_nJb0uuPGFIdySA4t5k5elhyhZCvGh8UMYkrsJUNzhKWlNZVzRINFQ0SjNCT0RKRFZDQ1RMSS4u",
   },
   {
     id: 5,
@@ -122,5 +126,6 @@ export const vacancies = [
       ],
     },
     offers: [],
+    form: "https://forms.office.com/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=orVNd_nJb0uuPGFIdySA4t5k5elhyhZCvGh8UMYkrsJURDQ1WlJFS001TTNISktTNzNOMDE5QUZTOS4u",
   },
 ];

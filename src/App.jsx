@@ -17,7 +17,7 @@ function App() {
   const details = getVacancyById(id);
 
   return (
-    <div >
+    <div>
       <div className="text-center text-sky-500 text-xl font-medium  p-5">
         Welcome to Avromed Vacancies
       </div>
@@ -38,11 +38,11 @@ function App() {
           <Modul details={details} setModal={setModal} setForm={setForm} />
         </div>
       )}
-      {form && (
+      {/* {form && (
         <div className="flex justify-center ">
-          <Form setForm={setForm} />
+          <Form setForm={setForm} details={details} />
         </div>
-      )}
+      )} */}
     </div>
   );
 }
