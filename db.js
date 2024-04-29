@@ -101,7 +101,7 @@ export const vacancies = [
       ],
     },
     offers: [],
-    form: "https://forms.office.com/Pages/ShareFormPage.aspx?id=orVNd_nJb0uuPGFIdySA4t5k5elhyhZCvGh8UMYkrsJUNzhKWlNZVzRINFQ0SjNCT0RKRFZDQ1RMSS4u&sharetoken=SjveqpEfuSVONGiKDBLm",
+    form: "https://forms.office.com/r/zs2Rh4GBv1?origin=lprLink",
   },
   {
     id: 5,
