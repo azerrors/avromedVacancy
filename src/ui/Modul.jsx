@@ -41,14 +41,14 @@ function Modul({ details, setModal, setForm }) {
           <div className="flex flex-col mb-4">
             {requirements.education && (
               <div>
-                <span>-Education: </span>
+                <span>- Education: </span>
                 <span>{requirements.education}</span>
               </div>
             )}
 
             {requirements.work_experience && (
               <div>
-                <span>-Work Experience: </span>
+                <span>- Work Experience: </span>
                 <span>{requirements.work_experience}</span>
               </div>
             )}

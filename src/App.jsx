@@ -22,7 +22,7 @@ function App() {
         Avromed Vacancy
       </div>
 
-      <main className=" flex flex-col items-center justify-center md:mt-20 ">
+      <main className=" flex  flex-col items-center justify-center md:mt-20 ">
         {vacancies?.map((vacancies) => (
           <VacanyItem
             vacancy={vacancies}
