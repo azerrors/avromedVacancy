@@ -25,7 +25,7 @@ export const vacancies = [
       "Career advancement",
       "Professional development in the relevant field",
     ],
-    form: "https://forms.office.com/Pages/ShareFormPage.aspx?id=orVNd_nJb0uuPGFIdySA4t5k5elhyhZCvGh8UMYkrsJUMURaRFpSTzZYOUgyWVFOMUNURElLWkNHNC4u&sharetoken=HmfhSPrzRUiT6rKqLcEF",
+    form: "https://forms.office.com/r/gxKpEFx1v5?origin=lprLink",
   },
   {
     id: 2,
@@ -53,7 +53,7 @@ export const vacancies = [
       "Career advancement",
       "Professional development in the relevant field",
     ],
-    form: "https://forms.office.com/Pages/ShareFormPage.aspx?id=orVNd_nJb0uuPGFIdySA4t5k5elhyhZCvGh8UMYkrsJUNDRNMk9MUjRRWlJZMTVNMktQUFFLMDAzVC4u&sharetoken=WR4EzOtTEPmnGTa90PMo",
+    form: "https://forms.office.com/r/C3fpJqcdw1?origin=lprLink",
   },
   {
     id: 3,
@@ -78,7 +78,7 @@ export const vacancies = [
       ],
     },
     offers: [],
-    form: "https://forms.office.com/Pages/ShareFormPage.aspx?id=orVNd_nJb0uuPGFIdySA4t5k5elhyhZCvGh8UMYkrsJUNklPR1AxWVhVQTdIQk1WRlNYWk04MVZCUC4u&sharetoken=Fd0E0x9mXSmyJZk9ly8P",
+    form: "https://forms.office.com/r/fyLVd4WL10?origin=lprLink",
   },
   {
     id: 4,
@@ -126,6 +126,6 @@ export const vacancies = [
       ],
     },
     offers: [],
-    form: "https://forms.office.com/Pages/ShareFormPage.aspx?id=orVNd_nJb0uuPGFIdySA4t5k5elhyhZCvGh8UMYkrsJURDQ1WlJFS001TTNISktTNzNOMDE5QUZTOS4u&sharetoken=pfc1DlunrvsVL41h6E21",
+    form: "https://forms.office.com/r/wMZkVCXf4x?origin=lprLink",
   },
 ];
