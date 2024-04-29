@@ -80,7 +80,7 @@ function Modul({ details, setModal, setForm }) {
       <div className="text-center p-2">
         <button
           onClick={() => setForm((form) => !form)}
-          className="border border-stone-200 bg-white font-medium px-5 py-3 uppercase rounded-xl"
+          className="border hover:-translate-y-2 active:translate-y-1 transition-all duration-200 border-stone-200 bg-white font-medium px-5 py-3 uppercase rounded-xl"
         >
           <a href={form}>Contact Us</a>
         </button>

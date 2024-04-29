@@ -18,8 +18,8 @@ function App() {
 
   return (
     <div>
-      <div className="text-center text-sky-500 text-xl font-medium  p-5">
-        Welcome to Avromed Vacancies
+      <div className="text-center uppercase  text-sky-500 text-xl font-semibold bg-sky-100  tracking-wider  p-5">
+        Avromed Vacancy
       </div>
 
       <main className=" flex flex-col items-center justify-center md:mt-20 ">

@@ -9,7 +9,7 @@ function VacanyItem({ vacancy, onID, setModal }) {
     setModal((modal) => !modal);
   };
   return (
-    <div className="m-5 border-2 border-sky-200 hover:scale-[1.01] transition-all duration-300 p-4 rounded-lg text-xl">
+    <div className="m-5 hover:-translate-y-2 active:translate-y-1 border-2 border-sky-200 hover:scale-[1.01] transition-all duration-300 p-4 rounded-lg text-xl">
       <button onClick={handleClick}>{job_title}</button>
     </div>
   );
