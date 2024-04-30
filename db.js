@@ -131,7 +131,7 @@ export const vacancies = [
 
   {
     id: 6,
-    job_title: "Vacancy -Data entry clerck",
+    job_title: "Data Entry Clerck",
     duties_and_responsibilities: [
       "Entering and updating data in the company's operating system",
       "Supporting input requests from various departments of the company",
