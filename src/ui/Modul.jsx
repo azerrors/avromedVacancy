@@ -34,33 +34,46 @@ function Modul({ details, setModal, setForm }) {
           ))}
         </ul>
 
-        <h4 className="font-semibold border-b-2 border-stone-600">
-          Requirements:
-        </h4>
-        <div>
-          <div className="flex flex-col mb-4">
-            {requirements.education && (
-              <div>
-                <span>- Education: </span>
-                <span>{requirements.education}</span>
-              </div>
-            )}
+        {requirements && (
+          <>
+            {requirements.education ||
+              (requirements.work_experience && (
+                <h4
+                  className={`font-semibold ${
+                    requirements.education ? "border-b-2 border-stone-600" : "G"
+                  }`}
+                >
+                  Requirements:
+                </h4>
+              ))}
+            <div>
+              <div className="flex flex-col mb-4">
+                {requirements.education && (
+                  <div>
+                    <span>- Education: </span>
+                    <span>{requirements.education}</span>
+                  </div>
+                )}
 
-            {requirements.work_experience && (
-              <div>
-                <span>- Work Experience: </span>
-                <span>{requirements.work_experience}</span>
+                {requirements.work_experience && (
+                  <div>
+                    <span>- Work Experience: </span>
+                    <span>{requirements.work_experience}</span>
+                  </div>
+                )}
               </div>
-            )}
-          </div>
 
-          <p className="font-semibold border-b-2 border-stone-600">Skills:</p>
-          <ul>
-            {requirements.skills.map((skills) => (
-              <li className="my-2">- {skills}</li>
-            ))}
-          </ul>
-        </div>
+              <p className="font-semibold border-b-2 border-stone-600">
+                Skills:
+              </p>
+              <ul>
+                {requirements.skills.map((skills) => (
+                  <li className="my-2">- {skills}</li>
+                ))}
+              </ul>
+            </div>
+          </>
+        )}
 
         {offers === [] && (
           <div>

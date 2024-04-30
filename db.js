@@ -128,4 +128,25 @@ export const vacancies = [
     offers: [],
     form: "https://forms.office.com/r/wMZkVCXf4x?origin=lprLink",
   },
+
+  {
+    id: 6,
+    job_title: "Vacancy -Data entry clerck",
+    duties_and_responsibilities: [
+      "Entering and updating data in the company's operating system",
+      "Supporting input requests from various departments of the company",
+      "Analyzing, documenting, resolving incoming requests",
+    ],
+    requirements: {
+      skills: [
+        "Good knowledge of Microsoft Office programs (Word, Excel, Outlook)",
+        "Ability to think analytically",
+        "Good proficiency in Azerbaijani language",
+        "Desirable knowledge of Russian and English",
+        "Desirable knowledge of 1C",
+      ],
+    },
+    offers: [],
+    form: "https://forms.office.com/r/mnDgDHDWs9",
+  },
 ];
